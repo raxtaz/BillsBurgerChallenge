@@ -1,7 +1,7 @@
 public class MealOrder {
-    private Burger burger;
-    private Item side;
-    private Item drink;
+    private final Burger burger;
+    private final Item side;
+    private final Item drink;
 
     public MealOrder() {
         this("regular", "coke", "fries");

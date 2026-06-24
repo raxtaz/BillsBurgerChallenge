@@ -1,7 +1,7 @@
 public class Item {
-    private String type;
-    private String name;
-    private double price;
+    private final String type;
+    private final String name;
+    private final double price;
     private String size = "MEDIUM";
 
     public Item(String type, String name, double price) {
