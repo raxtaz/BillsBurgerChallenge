@@ -1,5 +1,7 @@
-public class Main {
-    static void main(String[] args) {
+public class Main
+{
+	static void main(String[] args)
+	{
 
 //        Item coke = new Item("drink", "coke", 1.50);
 //        coke.printItem();
@@ -23,9 +25,9 @@ public class Main {
 //        secondMeal.setDrinkSize("SMALL");
 //        secondMeal.printItemizedList();
 
-        MealOrder deluxeMeal = new MealOrder("deluxe", "7-up", "chili");
-        deluxeMeal.addBurgerToppings("AVOCADO", "BACON", "LETTUCE", "CHEESE", "MAYO");
-        deluxeMeal.setDrinkSize("SMALL");
-        deluxeMeal.printItemizedList();
-    }
+		MealOrder deluxeMeal = new MealOrder("deluxe", "7-up", "chili");
+		deluxeMeal.addBurgerToppings("AVOCADO", "BACON", "LETTUCE", "CHEESE", "MAYO");
+		deluxeMeal.setDrinkSize("SMALL");
+		deluxeMeal.printItemizedList();
+	}
 }
